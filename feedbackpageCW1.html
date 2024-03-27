@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>OCEAN: Home</title>
+    <link rel="stylesheet" type="text/css" href="cw1CSS.css">
+
+    <style>
+    h1{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+    .ocean-guide {
+      width: auto;
+      height:auto;
+      text-align: center;
+      margin: 10px;
+      border: solid black;
+    }
+      input[type="radio"]{
+      margin: 0 auto;
+    }
+    fieldset{
+      border: 5px solid black;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    label{
+      display: block;
+      margin-bottom: 10px;
+    }
+    span{
+      display: inline-block;
+    }
+    .requiredinfo{
+        color: red;
+        font-weight: bold;
+    }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div id="nav-bar">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="images/OCEAN.png" alt="Ocean web logo" width="100" height="100" style="border-radius: 5px;" />
+          </div>
+          <ul>
+            <li><a href="webDevCW1.html">Home</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Shop</a></li>
+            <li><a href="feedbackpageCW1.html">Feedback</a></li>
+            <li><a>Contents</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-container">
+        <h1>Ocean</h1>
+        <p>For a brighter and more sustainable future, delivering our promised care for the aqua life</p>
+
+      </div>
+    </header>
+    
+
+      <main>
+    <form id="feedback-form">
+      <Fieldset>
+
+        <legend>Feedback Form:</legend><br>
+        <legend class="requiredinfo">Required fields*</legend><br>
+        <label for="first-name">First-Name:</label><br>
+        <input type="text" name="first-name" id="first-name"><br>
+        <label for="surname">Surname:</label><br>
+        <input type="text" name="surname" id="surname"><br>
+        <legend>Was this your first time visiting?</legend>
+        <input type="radio" name="visit" id="visit-yes" value="Yes">Yes
+        <input type="radio" name="visit" id="visit-no" value="No">No<br>
+        <legend>Was this website informative and easy to navigate through?</legend>
+        <input type="radio" name="informative" id="informative-yes" value="Yes">Yes
+        <input type="radio" name="informative" id="informative-no" value="No">No<br>
+        <legend>If "No", suggest any improvements for the future</legend>
+        <textarea rows="4" cols="50" placeholder="Add your message here"></textarea><br>
+        <legend>How satisfied are you with Our services? Choose from 1 to 10, with 1 being "Not satisfied at all" and 10 being "Extremely satisfied!"</legend><br>
+
+        <span>
+          <label for="satisfaction-1">1</label>
+        <input type="radio" name="satisfaction" id="satisfaction-1" value="1">
+        </span>
+        
+        <span>
+          <label for="satisfaction-2">2</label>
+        <input type="radio" name="satisfaction" id="satisfaction-2" value="2">
+        </span>
+      
+        <span>
+          <label for="satisfaction-3">3</label>
+        <input type="radio" name="satisfaction" id="satisfaction-3" value="3">
+        </span>
+        
+        <span>
+          <label for="satisfaction-4">4</label>
+        <input type="radio" name="satisfaction" id="satisfaction-4" value="4">
+        </span>
+      
+        <span>
+          <label for="satisfaction-5">5</label>
+        <input type="radio" name="satisfaction" id="satisfaction-5" value="5">
+        </span>
+        
+        <span>
+          <label for="satisfaction-6">6</label>
+        <input type="radio" name="satisfaction" id="satisfaction-6" value="6">
+        </span>
+
+        <span>
+          <label for="satisfaction-7">7</label>
+        <input type="radio" name="satisfaction" id="satisfaction-7" value="7">
+        </span>
+        
+        <span>
+          <label for="satisfaction-8">8</label>
+        <input type="radio" name="satisfaction" id="satisfaction-8" value="8">
+        </span>
+    
+        <span>
+          <label for="satisfaction-9">9</label>
+          <input type="radio" name="satisfaction" id="satisfaction-9" value="9">
+        </span>
+        
+        <span>
+          <label for="satisfaction-10">10</label>
+        <input type="radio" name="satisfaction" id="satisfaction-10" value="10">
+        </span><br>
+        
+        <legend>Would you recommend our services?</legend>
+        <input type="radio" name="yes" id="html" value="HTML">Yes
+        <input type="radio" name="no" id="css" value="CSS">No<br>
+
+        <legend>Would you like to receive updates about the website?</legend>
+        <select name="poplist" id="list" placeholder="Select">
+            <option value="email">Email</option>
+            <option value="text">Text</option>
+            <option value="call">Call</option>
+        </select><br>
+
+        <legend>Do you have any additional questions?</legend>
+        <textarea rows="4" cols="50" placeholder="Add your message here"></textarea><br>
+
+        <input type="submit" value="Submit Feedback">
+
+      </Fieldset>
+    </form>
+
+    <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h2>Contact us</h2>
+            <address><a href="mailto:marinekeeper@OCEAN.com">CONTACT US</a></address>
+          </div>
+          <div class="footer-heading footer-2">
+            <h2>Page Editors</h2>
+          </div>
+          <div class="footer-heading footer-3">
+            <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
+            <a href="#">Twitter</a>
+          </div>
+          <div class="footer-email-form">
+            <h2>Join our newsletter</h2>
+            <input type="email" placeholder="Enter your email address" id="footer-email">
+            <input type="submit" value="Sign Up" id="footer-email-btn">
+          </div>
+  
+      </div>
+
+    <br>
+    <address><a href="mailto:marinekeeper@OCEAN.com">CONTACT US</a></address>
+
+    <footer>All Rights Reserved: &copy; OCEAN Ltd</footer>
+<script>
+    document.getElementById("feedback-form").addEventListener( "submit", function ( event ) { 
+    var firstName=document.getElementById("first-name").value;
+    var surname = document.getElementById("surname").value;
+    var visitYes= document.getElementById("visit-yes").checked;
+    var visitNo= document.getElementById("visit-no").checked;
+    var informativeYes= document.getElementById("informative-yes").checked;
+    var informativeNo= document.getElementById("informative-no").checked;
+
+    var errorMessage="";
+
+    if (!firstName.trim()){
+        errorMessage+="First name is required\n";
+    } 
+    if  (!surname.trim()) {
+        errorMessage +="Surname is required\n";
+    }
+    if ((!visitYes && !visitNo)) {
+       errorMessage += "Please select if this was your first time visiting\n";
+    }
+    if ((!informativeYes && !informativeNo)) {
+        errorMessage+="Please select if the website was informative and easy to read\n";
+    }
+
+    if (errorMessage){
+        alert(errorMessage);
+        event.preventDefault();
+    }
+   });
+</script>
+      </main>
+    
+
+  </body>
+</html>
