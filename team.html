@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MarineKeeper: Our Team </title>
+    <link rel="stylesheet" type="text/css" href="css_template.css">
+
+
+    <style>
+        body {
+            color: aliceblue;
+        }
+
+        #heading {
+            text-align: center;
+            position: relative;
+            top: 50px;
+
+        }
+
+        .big {
+            text-align: center;
+            position: relative;
+            top: 100px;
+        }
+
+        .color {
+            position: relative;
+            background-color: #00336665;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+
+        }
+
+        #one {
+            top: 150px;
+            left: 270px;
+        }
+
+        #two {
+            top: -150px;
+            left: 590px;
+        }
+
+        #three {
+            top: -450px;
+            left: 910px;
+        }
+
+        #four {
+            top: -750px;
+            left: 1230px;
+        }
+
+        #tracey,
+        #manta,
+        #gizem,
+        #shushanik {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+
+        #info {                         /*/   https://sharkcoder.com/visual/shapes   /*/
+            position: relative;
+            width: 300px;
+            height: 120px;
+            background-color: transparent;
+            color: #003366;
+            text-align:initial;
+            padding: 25px;
+            top: -690px;
+            left: 270px;
+            border-radius: 20px;
+            font-weight: bold;
+
+        }
+        #bubble{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 50%;
+                width: 0;
+                height: 0;
+                border: 13px solid transparent;
+                border-bottom-color:  transparent;
+                border-top: 0;
+                margin-left: -13px;
+                margin-top: -13px;
+            }
+
+
+        .avatar {
+            text-align: center;
+            float: inline-start;
+            margin-right: 20px;
+            position: relative;
+            top: 150px;
+        }
+
+        #tracey_details {
+            margin-left: 270px;
+        }
+
+
+        #up-arrow {
+            text-align: right;
+            margin-right: 2%;
+            bottom: 20px;
+            position: relative;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <header>
+            <div id="nav-bar">
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="images/marinekeeper_logo.png" alt="Ocean web logo" width="100" height="100"
+                            style="border-radius: 5px;">
+                    </div>
+                    <ul>
+                        <li><a href="home_page.html">Home</a></li>
+                        <li><a href="contents_page.html">Contents</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="profile.html"> Be a Volunteer</a></li>
+                        <li><a href="team.html"> Our Team </a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="feedback_page.html">Feedback</a></li>
+                        <li><a href="sitemap.html">Site Map</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-container">
+                <h1 style="text-align: center;">Marine Keeper</h1>
+                <p>For a brighter and more sustainable future, delivering our promised care for the aqua life</p>
+
+            </div>
+        </header>
+
+        <div class="team" style="height: 800px;">
+            <h2 id="heading"> Our Team</h2>
+
+            <div class="avatar" id="tracey_details">                            <!-- IMAGES AND NAMES OF ALL TEAM MEMBERS-->
+                <img src="images/tracey.jpeg" id="tracey" alt="picture of Tracey Sidharta"><span class="name"
+                    id="tracey_name"><br><br> Tracey Sidharta </span>
+
+            </div>
+
+            <div class="avatar">
+                <img src="images/manta.jpeg" id="manta" alt="picture of Mantas Zvybas"><span class="name"
+                    id="manta_name"><br><br> Mantas Zvybas </span>
+
+            </div>
+
+            <div class="avatar">
+                <img src="images/gizem.jpg" id="gizem" alt="picture of Gizem Aydin"><span class="name"
+                    id="gizem_name"><br><br> Gizem Aydin </span>
+
+            </div>
+
+            <div class="avatar">
+                <img src="images/shushanik.jpg" id="shushanik" alt="picture of Shushanik Hayrapetyan" ><span
+                    class="name" id="shushanik_name"><br><br> Shushanik Hayrapetyan
+                </span>
+
+            </div>
+
+            <!-- INTERACTIVITY WHEN HOVERING MOUSE OVER PICTURES -->
+            <div class="color" id="one" onmouseover="changebackcolor(this);getInfo('Student 1' , 'w19697826', 'Splash Screen & Shop'); changecolor1()"
+                onmouseout="revertbackcolor(this);closeInfo( '','','');revertcolor();"> </div>
+
+            <div class="color" id="two" onmouseover="changebackcolor(this);getInfo('Student 2', 'w19371553', 'Home Page & Feedback');changecolor2()"
+                onmouseout="revertbackcolor(this);closeInfo( '','','');revertcolor();"> </div>
+
+            <div class="color" id="three" onmouseover="changebackcolor(this);getInfo('Student 3', 'w19458229', 'Be a Volunteer & Our Team');changecolor3()"
+                onmouseout="revertbackcolor(this);closeInfo( '','','');revertcolor();"> </div>
+
+            <div class="color" id="four" onmouseover="changebackcolor(this);getInfo('Student 4' , 'w19695745' , 'Gallery & Site Map'); changecolor4();"
+                onmouseout="revertbackcolor(this);closeInfo( '','','');revertcolor();"> </div>
+
+
+                <!-- EXTENDED THUMBNAIL DESIGN -->
+            <div id="info">
+                <div id="bubble"> </div>
+                <p id="student_num"> </p>
+                <p id="student_id"> </p>
+                <p id="pages"></p>
+
+            </div>
+        </div>
+
+            <!-- UP ARROW TO TOP OF PAGE -->
+        <h5 id="up-arrow"><img src="images/up.png" alt="up-arrow" style="margin:auto; width:30px;height: 30px;"> <a
+                href="#top" style="color: aliceblue;"><br> Back To The Top </a></h5>
+
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h2>Contact us</h2>
+                    <address><a href="mailto:marinekeeper@OCEAN.com">CONTACT US</a></address>
+                </div>
+                <div class="footer-heading footer-2">
+                    <h2> Page Editors </h2>
+                    <a href="PageEditor_ST1.html"> Student 1: Tracey Sidharta (w19697826)</a>
+                    <a href="PageEditor_ST2.html"> Student 2: Mantas Zvybas (w19371553)</a>
+                    <a href="pageEditor_ST3.html"> Student 3: Gizem Aydin (w19458229)</a>
+                    <a href="PageEditor_ST4.html"> Student 4: Shushanik Hayrapetyan (w19695745)</a>
+                </div>
+                <div class="footer-heading footer-3">
+                    <h2>Social Media</h2>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Youtube</a>
+                    <a href="#">Twitter</a>
+                </div>
+                <div class="footer-email-form">
+                    <h2>Join our newsletter</h2>
+                    <input type="email" placeholder="Enter your email address" id="footer-email">
+                    <input type="submit" value="Sign Up" id="footer-email-btn">
+                </div>
+
+            </div>
+
+
+            <br>
+
+            <footer>All Rights Reserved: &copy; OCEAN Ltd</footer>
+        </div>
+    </div>
+
+        <script>
+            function changebackcolor(element) {         //WHEN USER HOVERS TO IMAGE, BLUE HUE DISAPPEARS
+                element.style.backgroundColor = "transparent";
+
+            }
+
+            function revertbackcolor(element) {             //WHEN USER HOVERS FROM IMAGE, BLUE HUE IS VISIBLE AGAIN
+                element.style.backgroundColor = "#00336665";
+            }
+
+
+            function getInfo(num, id, pages) {              //PRINTS INFORMATION ABOUT THE TEAM MEMBER WHEN MOUSE IS HOVERED TO THEIR PICTURE
+                document.getElementById('student_num').textContent = "Role:   "+ num;
+                document.getElementById('student_id').textContent =  "Student ID: " + id;
+                document.getElementById('pages').textContent = "Pages:  " + pages;
+            }
+
+            function closeInfo(num, id, pages) {                        //REMOVES INFORMATION WHEN MOUSE IS NOT OVER THEIR PICTURE
+                document.getElementById('student_num').textContent = ""
+                document.getElementById('student_id').textContent = ""
+                document.getElementById('pages').textContent = ""
+            }
+
+            function changecolor1(){                                        // EXTENDED THUMBNAIL IS VISIBLE FOR STUDENT 1 WHEN USER HOVERS
+                document.getElementById('info').style.backgroundColor= "#e5f7ffa1";
+                document.getElementById('bubble').style.borderBottomColor="#e5f7ffa1";
+                document.getElementById('info').style.left=270+"px";
+
+
+            }
+
+            function changecolor2(){                                    // EXTENDED THUMBNAIL IS VISIBLE FOR STUDENT 2 WHEN USER HOVERS
+                document.getElementById('info').style.backgroundColor= "#e5f7ffa1";
+                document.getElementById('bubble').style.borderBottomColor="#e5f7ffa1";
+                document.getElementById('info').style.left=590+"px";
+
+            }
+
+            function changecolor3(){                                // EXTENDED THUMBNAIL IS VISIBLE FOR STUDENT 3 WHEN USER HOVERS
+                document.getElementById('info').style.backgroundColor= "#e5f7ffa1";
+                document.getElementById('bubble').style.borderBottomColor="#e5f7ffa1";
+                document.getElementById('info').style.left=910+"px";
+
+            }
+
+            function changecolor4(){                            // EXTENDED THUMBNAIL IS VISIBLE FOR STUDENT 4 WHEN USER HOVERS
+                document.getElementById('info').style.backgroundColor= "#e5f7ffa1";
+                document.getElementById('bubble').style.borderBottomColor="#e5f7ffa1";
+                document.getElementById('info').style.left=1230+"px";
+
+            }
+
+            function revertcolor(){                         //REMOVES THUMBNAIL WHEN MOUSE IS NOT OVER THE PICTURE
+                document.getElementById('info').style.backgroundColor= "transparent";
+                document.getElementById('bubble').style.borderBottomColor="transparent";
+            }
+        </script>
+
+
+</body>
+
+</html>

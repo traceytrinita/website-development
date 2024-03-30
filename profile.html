@@ -1,0 +1,1062 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> MarineKeeper: Be a Volunteer </title>
+    <link rel="stylesheet" type="text/css" href="css_template.css">
+
+    <style>
+        body {
+            background-image: url(images/cleanbeach.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: transparent;
+            background-blend-mode: hard-light;
+            color: aliceblue;
+
+        }
+
+
+
+        .header {
+            text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+            text-align: center;
+            color: aliceblue;
+        }
+
+        h4 {
+            font-size: larger;
+        }
+
+        #start,
+        #reset,
+        #continue,
+        #send {
+            color: aliceblue;
+            background-color: #003366;
+            border-radius: 30px;
+            padding: 3px;
+            width: 130px;
+            height: 40px;
+            letter-spacing: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+            font-size: larger;
+            font-weight: bold;
+            text-align: center;
+
+            cursor: url(cursor.png), auto;
+
+
+        }
+
+        #start:hover,
+        #reset:hover,
+        #continue:hover,
+        #send:hover {
+            background-color: #0517245e;
+            cursor: url(cursor.png), auto;
+        }
+
+        #progress_bar {
+            width: 0.5%;
+            background-image: repeating-linear-gradient(rgb(5, 107, 141), rgb(9, 32, 92));
+            height: 20px;
+            position: absolute;
+            left: 450px;
+            float: left;
+
+
+        }
+
+
+        .info {
+            bottom: -40px;
+            position: relative;
+            text-align: center;
+
+        }
+
+        .personal_details {
+            width: 300px;
+            height: 350px;
+            padding: 5px;
+            margin-left: 41.6%;
+            background-color: #00336699;
+            position: relative;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            top: 30px;
+
+
+        }
+
+        .volunteer_tasks {
+            width: 300px;
+            height: 350px;
+            padding: 5px;
+            margin-left: 41.6%;
+            background-color: #00336699;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            position: relative;
+            margin-top: 40px;
+
+        }
+
+        .contact_details {
+            width: 300px;
+            height: 350px;
+            padding: 5px;
+            margin-left: 41.6%;
+            background-color: #00336699;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            position: relative;
+            margin-top: 10px;
+        }
+
+        .further_details {
+            width: 300px;
+            height: 350px;
+            padding: 5px;
+            margin-left: 41.6%;
+            background-color: #00336699;
+            position: relative;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            margin-top: 10px;
+        }
+
+
+        label {
+            display: inline-block;
+            font-size: smaller;
+            left: 5px;
+            width: 100px;
+            text-align: left;
+            cursor: url(cursor.png), auto;
+
+        }
+
+        .buttons {
+            position: relative;
+            top: 20px;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+
+        }
+
+        .text {
+            font-size: smaller;
+            color: rgba(240, 248, 255, 0.752);
+            text-align: center;
+            position: relative;
+            background-color: #00336699;
+            width: max-content;
+            margin: 0 auto;
+            top: 25px;
+        }
+
+        #review1,
+        #review2,
+        #review3,
+        #review4 {
+            background-color: #e5f7ffa1;
+            color: #003366;
+            text-align: center;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+
+        }
+
+        #review1 {
+            text-anchor: middle;
+            padding: 60px;
+            margin-top: -1570px;
+            margin-left: 200px;
+        }
+
+        #review2 {
+            text-anchor: middle;
+            padding: 60px;
+            margin-top: 70px;
+            margin-left: 1300px;
+        }
+
+        #review3 {
+            text-anchor: middle;
+            padding: 50px;
+            margin-top: 70px;
+            margin-left: 160px;
+        }
+
+        #review4 {
+            text-anchor: middle;
+            padding: 40px;
+            margin-top: 70px;
+            margin-left: 1200px;
+        }
+
+        #up-arrow {
+            text-align: right;
+            margin-right: 2%;
+            bottom: 20px;
+            position: relative;
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div style="height: 2000px;">
+        <header>
+            <div id="nav-bar">
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="images/marinekeeper_logo.png" alt="Ocean web logo" width="100" height="100"
+                            style="border-radius: 5px;">
+                    </div>
+                    <ul>
+                        <li><a href="home_page.html">Home</a></li>
+                        <li><a href="contents_page.html">Contents</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="profile.html"> Be a Volunteer</a></li>
+                        <li><a href="team.html"> Our Team </a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="feedback_page.html">Feedback</a></li>
+                        <li><a href="sitemap.html">Site Map</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-container">
+                <h1 style="text-align: center;">Marine Keeper</h1>
+                <p>For a brighter and more sustainable future, delivering our promised care for the aqua life</p>
+
+            </div>
+        </header>
+
+        <br><br><br>
+        <h2 class="header" style="background-color:  #00336699; width: 400px; margin: 0 auto;">Be a Volunteer</h2>
+
+        <div class="personal_details">
+            <h4 class="header"> Personal Details</h4><br><br>
+            <form>
+                <label for="name">* Name: </label>
+                <input type="text" name="name" id="name" onclick="name_func()" value="">
+            </form><br>
+
+            <form>
+                <label for="surname">* Surname: </label>
+                <input type="text" name="surname" id="surname" onclick="surname_func()" value="">
+            </form><br>
+
+            <form>
+                <label for="age">* Age: </label>
+                <input type="text" name="age" id="age" onclick="age_func()" value="">
+            </form><br>
+
+            <form>
+                <label for="gender">* Gender: </label>
+                <input type="text" name="gender" id="gender" onclick="gender_func()" value="">
+            </form>
+            <br>
+        </div>
+
+
+
+        <div class="volunteer_tasks">
+            <h4 class="header"> Volunteering Tasks</h4><br><br>
+
+            <form>
+                <label for="interest">Interest: </label>
+                <input type="text" name="interest" id="interest" value="" onclick="interest_func()">
+            </form><br>
+
+            <form>
+                <label for="skills">Skills and Expertise: </label>
+                <input type="text" name="skills" id="skills" value="" onclick="skills_func()">
+            </form><br>
+
+            <form>
+                <label for="time">Time Commitment: </label>
+                <input type="text" name="time" id="time" value="" onclick="time_func()">
+            </form><br>
+
+            <form>
+                <label for="experience">Experience: </label>
+                <input type="text" name="experience" id="experience" value="" onclick="experience_func()">
+            </form><br>
+
+            <form>
+                <label for="preference">Preferences: </label>
+                <input type="text" name="preference" id="preference" value="" onclick="preference_func()">
+            </form><br>
+
+        </div>
+
+        <div class="contact_details">
+            <h4 class="header"> Contact Details</h4><br><br>
+
+            <form>
+                <label for="email">* Email Address: </label>
+                <input type="text" name="email" id="email" value="" onclick="email_func()">
+            </form><br>
+
+            <form>
+                <label for="phone">Phone Number: </label>
+                <input type="text" name="phone" id="phone" value="" onclick="phone_func()">
+            </form><br>
+
+            <form>
+                <label for="address">Address: </label>
+                <input type="text" name="address" id="address" value="" onclick="address_func()">
+            </form><br>
+
+            <form>
+                <label for="contact">* Contact Preference: </label>
+                <input type="text" name="contact" id="contact" value="" onclick="contact_func()">
+            </form><br>
+
+        </div>
+
+        <div class="further_details">
+            <h4 class="header"> Further Details</h4><br><br>
+
+            <form>
+                <label for="accessibility">Specific Needs: </label>
+                <input type="text" name="accessibility" id="accessibility" value="" onclick="accessibility_func()">
+            </form><br>
+
+            <form>
+                <label for="language">Language: </label>
+                <input type="text" name="language" id="language" value="" onclick="language_func()">
+            </form><br>
+
+            <form>
+                <label for="mentor">Mentoring: </label>
+                <input type="text" name="mentor" id="mentor" value="" onclick="mentor_func()">
+            </form><br>
+
+            <form>
+                <label for="schedule">Schedule: </label>
+                <input type="text" name="schedule" id="schedule" value="" onclick="schedule_func()">
+            </form><br><br><br><br>
+
+            <form>
+                <label for="terms">* Agree with Privacy Policy: </label>
+                <input type="text" name="terms" id="terms" value="" onclick="terms_func()">
+            </form><br>
+
+        </div>
+        <div class="buttons">
+
+            <input type="submit" id="start" value="Start" onclick="start()">
+            <input type="reset" id="reset" onclick="reset_progress()"><br><br>
+            <input type="submit" id="send" value="Join" formaction="mailto:marinekeeper@OCEAN.com"
+                onclick="send_details()">
+
+        </div>
+        <div class="text">
+            <p> * These fields are mandatory.</p>
+            <p> To edit your responses, click the field you want to change manually or click "Edit" to change all
+                responses.</p>
+
+        </div>
+
+        <div class="info">
+            <h4 id="completionprogress"> Completion Progress </h4><br><br>
+            <div id="progress_bar">
+            </div><br>
+
+            <div id="progress_percent">0% completed</div>
+
+
+        </div>
+
+        <div class="reviews">
+            <p id="review1"> "Volunteering with Marine Keeper was really fun, the team treated volunteers really nicely.
+                All necessary training was provided. Never a boring event. I feel like I was part of a team there." -
+                Jack D. </p>
+            <p id="review2">"Participating in beach cleaning activities was incredibly rewarding. Not only did I get to
+                enjoy the beautiful scenery, but I also felt like I was making a tangible difference in preserving our
+                coastal ecosystems." - Elena A.</p>
+            <p id="review3"> "The sea is a precious resource that sustains life on Earth, and volunteering to protect it
+                has been an incredibly fulfilling journey. Together, we can make a meaningful difference in preserving
+                the beauty and abundance of our oceans." - Isabella & Noah M.</p>
+            <p id="review4"> "Joining ocean-saving initiatives has been a transformative experience. Whether it's
+                raising awareness about plastic pollution or assisting in marine research expeditions, each volunteer
+                effort brings us closer to ensuring a healthier future for our oceans and the life they sustain." - Aiko
+                Y.</p>
+        </div>
+    </div>
+    <h5 id="up-arrow"><img src="images/up.png" alt="up-arrow" style="margin:auto; width:30px;height: 30px;"> <a
+            href="#top" style="color: aliceblue;"><br> Back To The Top </a></h5>
+
+
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>Contact us</h2>
+                <address><a href="mailto:marinekeeper@OCEAN.com">CONTACT US</a></address>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2> Page Editors </h2>
+                <a href="PageEditor_ST1.html"> Student 1: Tracey Sidharta (w19697826)</a>
+                <a href="PageEditor_ST2.html"> Student 2: Mantas Zvybas (w19371553)</a>
+                <a href="pageEditor_ST3.html"> Student 3: Gizem Aydin (w19458229)</a>
+                <a href="PageEditor_ST4.html"> Student 4: Shushanik Hayrapetyan (w19695745)</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input type="email" placeholder="Enter your email address" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+
+        </div>
+
+
+        <br>
+
+        <footer>All Rights Reserved: &copy; OCEAN Ltd</footer>
+    </div>
+
+
+    <script>
+
+        const all_details = [];             //CREATES AN ARRAY
+        var completed = 0;
+        var completed1a = 0; var completed1b = 0; var completed1c = 0; var completed1d = 0;
+        var completed2a = 0; var completed2b = 0; var completed2c = 0; var completed2d = 0; var completed2e = 0;
+        var completed3a = 0; var completed3b = 0; var completed3c = 0; var completed3d = 0;
+        var completed4a = 0; var completed4b = 0; var completed4c = 0; var completed4d = 0; var completed4e = 0;
+
+
+        function Progress() {
+            completed = completed1a + completed1b + completed1c + completed1d + completed2a + completed2b + completed2c + completed2d + completed2e + completed3a + completed3b + completed3c + completed3d + completed4a + completed4b + completed4c + completed4d + completed4e;
+
+            if (completed == 0) {                           //IF VALUE IS ZERO, KEEPS PROGRESS BAR AS SAME
+                document.getElementById("progress_bar").style.width = 0.5 % + "%";
+            }
+            else {                                          //PROGRESS BAR AND COMPLETED VALUE
+                document.getElementById("progress_bar").style.width = completed * 0.5 + "%";
+                document.getElementById("progress_percent").innerText = completed + "% completed";
+            }
+        }
+
+        function start() {                          //IF USER CANCELS THE PROCESS, IT RETURNS FALSE VALUE TO STOP FUNCTION. IF  EVERYTHING IS FINE, RUNS AS USUAL. 
+            if (name_func() == false) return;
+            if (surname_func() == false) return;
+            if (age_func() == false) return;
+            if (gender_func() == false) return;
+
+            if (interest_func() == false) return;
+            if (skills_func() == false) return;
+            if (time_func() == false) return;
+            if (experience_func() == false) return;
+            if (preference_func() == false) return;
+
+            if (email_func() == false) return;
+            if (phone_func() == false) return;
+            if (address_func() == false) return;
+            if (contact_func() == false) return;
+
+            if (accessibility_func() == false) return;
+            if (language_func() == false) return;
+            if (mentor_func() == false) return;
+            if (schedule_func() == false) return;
+            if (terms_func() == false) return;
+
+
+
+            Progress();
+        }
+
+        function name_func() {
+            //ASKS FOR USER'S NAME
+            var name = prompt("Step 1: Personal Details | Question 1/4 \n \nPlease enter your name:");
+            if (name === "") {              //IF INPUT IS EMPTY, GIVES ERROR MESSAGE AND CALLS FUNCTION AGAIN
+                alert("Name cannot be empty. Please try again.");
+                name_func();
+                Progress();
+
+            }
+            else if (name === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();           //RESETS PROGRESS
+                return false;               //RETURNS FALSE VALUE TO CANCEL start() FUNCTION
+
+            }
+            else {
+                completed1a = 5;
+                Progress();
+                all_details[0] = name;        //STORES AS FIRST ELEMENT IN ARRAY
+                document.getElementById("name").value = name;           //CHANGES VALUE BY ID
+                document.getElementById("start").value = "Edit";        //CHANGES START BUTTON VALUE
+            }
+
+
+        }
+
+        function surname_func() {
+            //ASKS FOR USER'S SURNAME
+            var surname = prompt("Step 1: Personal Details | Question 2/4 \n \nPlease enter your surname:");
+
+            if (surname === "") {           //IF INPUT IS EMPTY, GIVES ERROR MESSAGE AND CALLS FUNCTION AGAIN
+                alert("Surname cannot be empty. Please try again.");
+                surname_func();
+                Progress();
+            }
+            else if (surname === null) {    //IF USER SELECT CANCEL, GIVES AN ALERT AND EXITS
+                completed = 0;
+                alert("User creation cancelled.");
+                reset_progress();           //RESETS PROGRESS
+                return false;               //RETURNS FALSE VALUE TO CANCEL start() FUNCTION
+
+            }
+            else {
+                completed1b = 5;
+                Progress();
+                all_details[1] = surname;       //STORES AS SECOND ELEMENT IN ARRAY
+                document.getElementById("surname").value = surname;
+                document.getElementById("start").value = "Edit";
+            }
+        }
+
+        function age_func() {
+            // ASKS FOR USER'S AGE 
+            var age = prompt("Step 1: Personal Details | Question 3/4 \n \nPlease enter your age:");
+
+            if (age === "") {               //IF INPUT IS EMPTY, GIVES ERROR MESSAGE AND CALLS FUNCTION AGAIN
+                alert("Age cannot be empty. Please try again.");
+                age_func();
+                Progress();
+            }
+            else if (age === null) {         //IF USER SELECT CANCEL, GIVES AN ALERT AND EXITS
+                alert("User creation cancelled.");
+                reset_progress();
+                completed = 0;
+                return false;
+
+            }
+            else {                          //IF INPUT NOT EMPTY, TURNS STRING TO INTEGER
+                var age_num = parseInt(age);
+
+
+                if (isNaN(age_num)) {       //IF IT CANNOT BE TURNED TO INTEGER, GIVES ERROR MESAGE AND CALLS FUNCTION AGAIN
+                    alert("Age must be a number. Please try again.");
+                    age_func();
+                    Progress();
+                    return;
+                }
+
+                else if (age_num <= 0) {         //IF IT IS EQUALS OR LESS THAN ZERO, GIVES ERROR MESSAGE AND CALLS FUNCTION AGAIN
+                    alert("Age cannot be zero or less. Please try again.");
+                    age_func();
+                    Progress();
+                    return;
+                }
+
+                else if (age_num > 100) {        //IF IT IS MORE THAN HUNDRED, GIVES ERROR MESSAGE AND CALLS FUNCTION AGAIN
+                    alert("Age cannot be more than 100. Please try again.");
+                    age_func();
+                    Progress();
+                    return;
+                }
+
+                else {
+                    completed1c = 5;
+                    Progress();
+                    all_details[2] = age_num;                 //STORES AS THIRD ELEMENT IN ARRAY
+                    document.getElementById("age").value = age_num;
+                    document.getElementById("start").value = "Edit";
+                }
+
+
+            }
+        }
+
+        function gender_func() {
+            //ASKS FOR USER'S GENDER
+            var gender = prompt("Step 1: Personal Details | Question 4/4 \n \nHow would you describe your gender?");
+            if (gender === "") {           //IF INPUT IS EMPTY, GIVES ERROR MESSAGE AND CALLS FUNCTION AGAIN
+                alert("Gender cannot be empty. Please try again.");
+                gender_func();
+                Progress();
+            }
+            else if (gender === null) {    //IF USER SELECT CANCEL, GIVES AN ALERT AND EXITS
+                alert("User creation cancelled.");
+                reset_progress();
+                completed = 0;
+                return false;
+
+            }
+
+            else {
+                completed1d = 5;
+                Progress();
+                all_details[3] = gender;                  //STORES AS FOURTH ELEMENT IN ARRAY
+                document.getElementById("gender").value = gender;
+                document.getElementById("start").value = "Edit";
+            }
+        }
+
+        function interest_func() {
+
+            //ASKS FOR USER'S INTEREST
+            var interest = prompt("Step 2: Volunteering Tasks | Question 1/5 \n \nWhat brings you to this cause?");
+
+            if (interest === "") {                 //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed2a = 4;
+                document.getElementById("interest").value = "N/A";          //ADDS "N/A" TO INPUT SECTION 
+                Progress();
+            }
+
+            else if (interest === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                reset_progress();
+                completed = 0;
+                return false;
+            }
+            else {
+                completed2a = 4;
+                Progress();
+                all_details[4] = interest;    //STORES IN ARRAY
+                document.getElementById("interest").value = interest;
+                document.getElementById("start").value = "Edit";
+            } //PRINTS ENTERED VALUE
+        }
+
+        function skills_func() {
+
+            var skills = prompt("Step 2: Volunteering Tasks | Question 2/5 \n \nTell us about your skills and expertise.");
+
+            if (skills === "") {                 //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed2b = 4;
+                document.getElementById("skills").value = "N/A";
+                Progress();
+            }
+
+            else if (skills === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                reset_progress();
+                completed = 0;
+                return false;
+            }
+            else {
+                completed2b = 4;
+                Progress();
+                all_details[5] = skills;      //STORES IN ARRAY
+                document.getElementById("skills").value = skills;
+                document.getElementById("start").value = "Edit";
+            } //PRINTS ENTERED VALUE
+        }
+
+        function time_func() {
+
+            var time = prompt("Step 2: Volunteering Tasks | Question 3/5 \n \nHow much time can you dedicate to volunteering tasks?");
+
+            if (time === "") {                 //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed2c = 4;
+                document.getElementById("time").value = "N/A";
+                Progress();
+            }
+
+            else if (time === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                reset_progress();
+                completed = 0;
+                return false;
+            }
+            else {
+                completed2c = 4;
+                Progress();
+                all_details[6] = time; //STORES IN ARRAY
+                document.getElementById("time").value = time;
+                document.getElementById("start").value = "Edit";
+            } //PRINTS ENTERED VALUE
+        }
+
+        function experience_func() {
+
+
+            var experience = prompt("Step 2: Volunteering Tasks | Question 4/5 \n \nHave you had any previous volunteering experience?");
+            if (experience === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed2d = 4;
+                document.getElementById("experience").value = "N/A";
+                Progress();
+
+            }
+            else if (experience === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                reset_progress();
+                completed = 0;
+
+                return false;
+            }
+            else {
+                completed2d = 4;
+                Progress();
+                all_details[7] = experience;          //STORES IN ARRAY
+                document.getElementById("experience").value = experience;
+                document.getElementById("start").value = "Edit";
+            } //PRINTS ENTERED VALUE
+        }
+
+        function preference_func() {
+
+            var preference = prompt("Step 2: Volunteering Tasks | Question 5/5 \n \nDo you have any preferences for the types of volunteering tasks you'd like to do");
+            if (preference === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed2e = 4;
+                document.getElementById("preference").value = "N/A";
+                Progress();
+
+            }
+            else if (preference === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                reset_progress();
+                completed = 0;
+
+                return false;
+            }
+            else {
+                completed2e = 4;
+                Progress();
+                all_details[8] = preference;              //STORES IN ARRAY
+                document.getElementById("preference").value = preference;
+                document.getElementById("start").value = "Edit";
+
+            } //PRINTS ENTERED VALUE
+        }
+
+        function email_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var email = prompt("Step 3: Contact Details | Question 1/4 \n \nPlease enter your email address: ");
+            if (email === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                alert("This area cannot be empty. Please try again.");
+                email_func();
+                Progress();
+                return;
+
+            }
+            else if (email === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed3a = 5;
+                Progress();
+                all_details[9] = email;           //STORES IN ARRAY
+                document.getElementById("email").value = email;
+                document.getElementById("start").value = "Edit";
+
+
+            } //PRINTS ENTERED VALUE
+
+
+        }
+
+        function phone_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var phone = prompt("Step 3: Contact Details | Question 2/4 \n \nPlease enter your phone number: ");
+            if (phone === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed3b = 5;
+                document.getElementById("phone").value = "N/A";
+                Progress();
+
+
+            }
+            else if (phone === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed3b = 5;
+                Progress();
+                all_details[10] = phone;                      //STORES IN ARRAY
+                document.getElementById("phone").value = phone;
+                document.getElementById("start").value = "Edit";
+
+
+            } //PRINTS ENTERED VALUE
+
+
+        }
+
+        function address_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var address = prompt("Step 3: Contact Details | Question 3/4 \n \nPlease enter your current address: ");
+            if (address === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed3c = 5;
+                document.getElementById("address").value = "N/A";
+                Progress();
+
+            }
+            else if (address === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed3c = 5;
+                Progress();
+                all_details[11] = address;
+                document.getElementById("address").value = address;
+                document.getElementById("start").value = "Edit";
+
+            } //PRINTS ENTERED VALUE
+
+
+        }
+
+        function contact_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var contact = prompt("Step 3: Contact Details | Question 4/4 \n \nHow would you prefer to be contacted?\n1. Phone  2. Mail  3. Email ");
+            if (contact === "") {
+                alert("This area cannot be empty. Please try again.");
+                contact_func();
+                Progress();
+            }
+            else if (contact === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed3d = 5;
+                Progress();
+                all_details[12] = contact;
+                document.getElementById("contact").value = contact;
+                document.getElementById("start").value = "Edit";
+
+            } //PRINTS ENTERED VALUE
+
+
+        }
+
+        function accessibility_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var accessibility = prompt("Step 4: Further Details | Question 1/5 \n \nDo you have any specific accommodations or accessibility needs we should be aware of?");
+            if (accessibility === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed4a = 5;
+                document.getElementById("accessibility").value = "N/A";
+                Progress();
+
+            }
+            else if (accessibility === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed4a = 5;
+                Progress();
+                all_details[13] = accessibility;
+                document.getElementById("accessibility").value = accessibility;
+                document.getElementById("start").value = "Edit";
+
+            } //PRINTS ENTERED VALUE
+
+
+        }
+
+        function language_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var language = prompt("Step 4: Further Details | Question 2/5 \n \nAre you fluent in any languages other than English that may be useful for volunteering?");
+            if (language === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed4b = 5;
+                document.getElementById("language").value = "N/A";
+                Progress();
+
+
+            }
+            else if (language === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed4b = 5;
+                Progress();
+                all_details[14] = language;
+                document.getElementById("language").value = language;
+                document.getElementById("start").value = "Edit";
+
+            } //PRINTS ENTERED VALUE
+
+        }
+
+        function mentor_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var mentor = prompt("Step 4: Further Details | Question 3/5 \n \nAre you interested in mentoring or coaching other volunteers?");
+            if (mentor === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed4c = 5;
+                document.getElementById("mentor").value = "N/A";
+                Progress();
+
+            }
+            else if (mentor === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed4c = 5;
+                Progress();
+                all_details[15] = mentor;
+                document.getElementById("mentor").value = mentor;
+                document.getElementById("start").value = "Edit";
+
+            } //PRINTS ENTERED VALUE
+
+
+        }
+
+        function schedule_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var schedule = prompt("Step 4: Further Details | Question 4/5 \n \nAre you available to commit to a regular schedule for volunteering, or do you prefer more flexible opportunities?");
+            if (schedule === "") {              //IF INPUT IS EMPTY, SKIPS TO NEXT QUESTION
+                completed4d = 5;
+                document.getElementById("schedule").value = "N/A";
+                Progress();
+
+
+
+            }
+            else if (schedule === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed4d = 5;
+                Progress();
+                all_details[16] = schedule;
+                document.getElementById("start").value = "Edit";
+                document.getElementById("schedule").value = schedule;
+
+            } //PRINTS ENTERED VALUE
+
+        }
+
+        function terms_func() {
+            //ASKS FOR USER'S ACCESSIBILITY NEEDS
+            var terms = prompt("Step 4: Further Details | Question 5/5 \n \nBy using this website, you agree to our privacy policy. Do you agree to the terms? (yes/no) ");
+            if (terms === "") {
+                alert("This area cannot be empty. Please try again.");
+                terms_func();
+                Progress();
+                return;
+            }
+            else if (terms === null) {       //IF USER SELECT CANCEL, GIVES AN ALERT AND CANCELS
+                alert("User creation cancelled.");
+                completed = 0;
+                reset_progress();
+                return false;
+
+            }
+            else {
+                completed4e = 20;
+                Progress();
+                all_details[17] = terms;
+                document.getElementById("terms").value = terms;
+                document.getElementById("start").value = "Edit";
+
+
+
+            } //PRINTS ENTERED VALUE
+
+
+        }
+
+        function reset_progress() {         //RESETS PROGRESS WHEN USER CLICKS RESET BUTTON
+
+            //https://www.tutorialspoint.com/html-dom-console-clear-method#:~:text=The%20HTML%20DOM%20console.,used%20to%20clear%20the%20console.
+            console.clear();
+            completed = 0;
+            completed1a = 0; completed1b = 0; completed1c = 0; completed1d = 0;
+            completed2a = 0; completed2b = 0; completed2c = 0; completed2d = 0; completed2e = 0;
+            completed3a = 0; completed3b = 0; completed3c = 0; completed3d = 0;
+            completed4a = 0; completed4b = 0; completed4c = 0; completed4d = 0; completed4e = 0;
+
+            document.getElementById("progress_bar").style.width = 0.5 + "%";
+            document.getElementById("progress_percent").innerText = completed + "% completed";
+            document.getElementById("start").value = "Start";
+
+            document.getElementById("gender").value = "";
+            document.getElementById("age").value = "";
+            document.getElementById("surname").value = "";
+            document.getElementById("name").value = ""
+
+            document.getElementById("interest").value = "";
+            document.getElementById("skills").value = "";
+            document.getElementById("experience").value = "";
+            document.getElementById("preference").value = "";
+            document.getElementById("time").value = "";
+
+            document.getElementById("email").value = "";
+            document.getElementById("phone").value = "";
+            document.getElementById("address").value = "";
+            document.getElementById("contact").value = "";
+
+            document.getElementById("terms").value = "";
+            document.getElementById("accessibility").value = "";
+            document.getElementById("language").value = "";
+            document.getElementById("mentor").value = "";
+            document.getElementById("schedule").value = "";
+
+        }
+
+        function send_details() {                                                   //IT ACCESSES THE VARIABLES USING  QUERYSELECTOR
+            var terms = document.querySelector('[name="terms"]').value;
+            var contact = document.querySelector('[name="contact"]').value;
+            var email = document.querySelector('[name="email"]').value;
+            var name = document.querySelector('[name="name"]').value;
+            var surname = document.querySelector('[name="surname"]').value;
+            var age = document.querySelector('[name="age"]').value;
+            var gender = document.querySelector('[name="gender"]').value;
+
+            if (terms==="" || contact==="" || email==="" || name==="" || surname==="" || age==="" || gender==="" ) {        //IF ONE OF THESE MANDATORY FIELDS ARE EMPTY, WARNS USER TO FILL IN. 
+                alert("Please fill all required fields.");
+                
+            }
+            else {                                  //IF ALL MANDATORY AREAS ARE FILLED, SEND APPLICATION FORM.
+                alert("Your request has been sent. Please check your e-mail for further details.");
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
