@@ -499,3 +499,19 @@ header .shopping span{
 .page-editor-pages:visited{
     color: purple;
 }
+.go_top{
+    font-size: 15px;
+    text-align:  center;
+    color: #003366;
+}
+.go_top img{
+    margin:auto; 
+    width:30px;
+    height: 30px;
+}
+.go_top:hover{
+    color: #DCE0E1;
+}
+.go_top:visited{
+    color: purple;
+}
