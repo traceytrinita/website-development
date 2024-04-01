@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title> MarineKeeper: Be a Volunteer </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css_template.css">
 
     <style>
@@ -242,7 +243,7 @@
         <br><br><br>
         <h2 class="header" style="background-color:  #00336699; width: 400px; margin: 0 auto;">Be a Volunteer</h2>
 
-        <div class="personal_details">
+        <div class="personal_details">              <!-- PERSONAL DETAILS SECTION -->
             <h4 class="header"> Personal Details</h4><br><br>
             <form>
                 <label for="name">* Name: </label>
@@ -268,7 +269,7 @@
 
 
 
-        <div class="volunteer_tasks">
+        <div class="volunteer_tasks">           <!-- VOLUNTEER TASKS SECTION -->
             <h4 class="header"> Volunteering Tasks</h4><br><br>
 
             <form>
@@ -298,7 +299,7 @@
 
         </div>
 
-        <div class="contact_details">
+        <div class="contact_details">               <!-- CONTACT DETAILS SECTION -->
             <h4 class="header"> Contact Details</h4><br><br>
 
             <form>
@@ -323,7 +324,7 @@
 
         </div>
 
-        <div class="further_details">
+        <div class="further_details">           <!-- FURTHER DETAILS SECTION-->
             <h4 class="header"> Further Details</h4><br><br>
 
             <form>
@@ -352,22 +353,22 @@
             </form><br>
 
         </div>
-        <div class="buttons">
+        <div class="buttons">               <!-- BUTTONS -->
 
             <input type="submit" id="start" value="Start" onclick="start()">
             <input type="reset" id="reset" onclick="reset_progress()"><br><br>
-            <input type="submit" id="send" value="Join" formaction="mailto:marinekeeper@OCEAN.com"
+            <input type="submit" id="send" value="Apply" formaction="mailto:marinekeeper@OCEAN.com"
                 onclick="send_details()">
 
         </div>
-        <div class="text">
+        <div class="text">              <!-- INFORMATION ABOUT FIELDS -->
             <p> * These fields are mandatory.</p>
             <p> To edit your responses, click the field you want to change manually or click "Edit" to change all
                 responses.</p>
 
         </div>
 
-        <div class="info">
+        <div class="info">          <!-- PROGRESS BAR GRAPHIC AND TEXT -->
             <h4 id="completionprogress"> Completion Progress </h4><br><br>
             <div id="progress_bar">
             </div><br>
@@ -377,7 +378,7 @@
 
         </div>
 
-        <div class="reviews">
+        <div class="reviews">           <!-- REVIEWS FROM RECENT VOLUNTEERS -->
             <p id="review1"> "Volunteering with Marine Keeper was really fun, the team treated volunteers really nicely.
                 All necessary training was provided. Never a boring event. I feel like I was part of a team there." -
                 Jack D. </p>
@@ -394,10 +395,10 @@
         </div>
     </div>
     <h5 id="up-arrow"><img src="images/up.png" alt="up-arrow" style="margin:auto; width:30px;height: 30px;"> <a
-            href="#top" style="color: aliceblue;"><br> Back To The Top </a></h5>
+            href="#nav-bar" style="color: aliceblue;"><br> Back To The Top </a></h5>
 
 
-    <div class="footer-container">
+    <div class="footer-container">      <!-- FOOTER -->
         <div class="footer">
             <div class="footer-heading footer-1">
                 <h2>Contact us</h2>
